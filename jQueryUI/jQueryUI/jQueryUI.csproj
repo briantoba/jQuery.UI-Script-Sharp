@@ -43,6 +43,7 @@
     <Reference Include="Script.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accordion.cs" />
     <Compile Include="Dialog.cs" />
   </ItemGroup>
   <ItemGroup>
