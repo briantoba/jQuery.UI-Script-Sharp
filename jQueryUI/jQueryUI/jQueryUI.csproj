@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Accordion.cs" />
+    <Compile Include="Selectable.cs" />
     <Compile Include="Dialog.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ namespace JQueryUIApi
 {
     [Imported]
     [IgnoreNamespace]
-    [ScriptName("$.fn.Accordion")]
+    [ScriptName("$.fn.accordion")]
     public class AccordionObject : jQueryObject
     {
         [AlternateSignature]
