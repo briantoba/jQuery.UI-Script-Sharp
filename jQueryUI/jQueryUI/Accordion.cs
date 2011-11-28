@@ -18,6 +18,8 @@ namespace JQueryUIApi
         public extern AccordionObject Accordion(string api);
 
         public extern AccordionObject Accordion(AccordionOptions options);
+
+        public extern AccordionObject Sortable(AccordionSortableOptions options);
     }
 
     [IgnoreNamespace]
@@ -30,6 +32,21 @@ namespace JQueryUIApi
 
         [IntrinsicProperty]
         public string HeaderSelected { get; set; }
+    }
+
+    [IgnoreNamespace]
+    [ScriptName("Object")]
+    [Imported]
+    public sealed class AccordionSortableOptions
+    {
+        [IntrinsicProperty]
+        public string Axis { get; set; }
+
+        [IntrinsicProperty]
+        public string Handle { get; set; }
+
+        [IntrinsicProperty]
+        public jQueryEventHandler Stop { get; set; }
     }
 
     [IgnoreNamespace]
